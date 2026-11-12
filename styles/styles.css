@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IT+Trad:wght@100..400&display=swap');
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+
+
+    background-color: #F2F2F2;
+
+}
+
+/* cambio de color de fondo */
+header {
+    background-color: #f7f1ef;
+
+}
+
+    {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6
+    /* agregar tipografia*/
+    font-family: "Playfair Display" sans-serif;
+    list-style: none;
+
+}
+
+h1 {
+    font-size: 4rem;
+
+}
+
+h2 {
+    font-size: 3rem;
+
+}
+
+h3 {
+    font-size: 2.5rem;
+
+}
+
+ul {
+    /* cambiar bullets de la lista*/
+    list-style: none;
+}
+
+a {
+
+    color: #663828;
+    text-decoration: none;
+    font-family: "Playwrite IT Trad" sans-serif font-size: 2rem;
+
+}
+
+p {
+    font-family: "Playwrite IT Trad" sans-serif;
+    font-size: 2rem;
+}
+
+main {
+
+    background-color: #f7f1ef;
+    color: #A67153;
+}
+
+.sectionimpar {
+    background-color: #663828;
+    color: #f7f1ef;
+
+}
+
+footer {
+    background-color: #F2F2F2;
+    color: #f7f1ef;
+
+
+}
