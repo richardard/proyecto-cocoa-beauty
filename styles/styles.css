@@ -16,7 +16,20 @@ body {
 header {
     background-color: #f7f1ef;
 
+
+    /*ancho max de todas las imagenes*/
+
 }
+
+
+
+.logo {
+
+    width: 10rem;
+
+}
+
+
 
 
 h1,
@@ -27,6 +40,7 @@ h5,
 h6 {
     /* agregar tipografia*/
     font-family: "Playfair Display", serif;
+    font-weight: 700;
 
 
 }
@@ -46,6 +60,11 @@ h3 {
 
 }
 
+
+img {
+
+    max-width: 100%;
+}
 
 /* cambiar bullets de la lista*/
 nav ul,
@@ -81,13 +100,18 @@ p {
 main {
 
     background-color: #f7f1ef;
-    color: #A67153;
+    color: #663828;
 }
 
 .sectionimpar {
     background-color: #663828;
     color: #f7f1ef;
 
+}
+
+.boton {
+    /* propiedades de box model*/
+    border: 3px red solid;
 }
 
 footer {
@@ -100,4 +124,8 @@ img {
     max-width: 100%;
     height: auto;
 
+}
+
+iframe {
+    border: 0;
 }
