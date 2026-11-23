@@ -5,6 +5,12 @@ html {
 
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
 
 
@@ -15,18 +21,31 @@ body {
 /* cambio de color de fondo */
 header {
     background-color: #f7f1ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+ul {
+    display: flex;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
 
-    /*ancho max de todas las imagenes*/
 
 }
+
+/*ancho max de todas las imagenes*/
+
 
 
 
 .logo {
 
     width: 10rem;
-
 }
 
 
@@ -46,23 +65,22 @@ h6 {
 }
 
 h1 {
-    font-size: 4rem;
-
-}
-
-h2 {
     font-size: 3rem;
 
 }
 
-h3 {
+h2 {
     font-size: 2.5rem;
+
+}
+
+h3 {
+    font-size: 2rem;
 
 }
 
 
 img {
-
     max-width: 100%;
 }
 
@@ -101,31 +119,147 @@ main {
 
     background-color: #f7f1ef;
     color: #663828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+
 }
 
 .sectionimpar {
     background-color: #663828;
     color: #f7f1ef;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
 
 }
 
 .boton {
+    font-size: 1.7rem;
     /* propiedades de box model*/
-    border: 3px red solid;
+    border: 2px #F2F2F2;
+    /*borde*/
+    /*relleno de la caja*/
+    padding-top: 2rem;
+    /* espacio fuera del borde */
+    margin: 2rem;
+}
+
+.sectionpar {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.contenedortarjetas {
+    /* propiedades de flex*/
+    /* propiedades*/
+    display: flex;
+    flex-direction: row;
+    /* distribuye los elementos  a lo largo del eje principal activo*/
+    justify-content: center;
+    /* distribuye los elementos sobre el eje secundario*/
+    align-items: stretch;
+    /* genera espacios flex*/
+    gap: 20px;
+
+
+}
+
+.tarjeta {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tarjeta img {
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+.tarjeta h3 {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.tarjeta p {
+    text-align: justify;
+}
+
+main figure {
+    width: 100%;
+    max-width: 300px;
+    object-fit: contain;
+}
+
+main figure img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+main figcaption {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 1rem;
+
 }
 
 footer {
     background-color: #F2F2F2;
     color: #663828;
+    margin-top: 3rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.redes {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.redes img {
+    width: 45px;
+    height: 45px;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
 }
 
 /* ajuste de imagenes */
-img {
-    max-width: 100%;
-    height: auto;
+footer img {
+    max-width: 100px;
+    height: 100px;
+    object-fit: contain;
 
 }
 
-iframe {
+footer iframe {
+    width: 300px;
+    height: 200px;
     border: 0;
 }
