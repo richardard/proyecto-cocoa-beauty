@@ -12,9 +12,9 @@ css3
 ## secciones del sitio 
 -home (index.htm)
 -contacto (contacto.html) 
--nosotros (nosotros.html)
--productos (productos.html)
--resultados(resultados.html)
+-proyectos(proyectos.html)
+-servicios (servicios.html)
+-sobre-mi(sobre-mi.html)
 
 ## como abrir el proyecto
 
